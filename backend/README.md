@@ -6,8 +6,8 @@ This application will be used for personal learning, where I'll apply concepts a
 
 # Requirements
 This list contains all technologies used in development of this application. Feel free to use any other.
-- For database, I use [PostgreSQL]() image for [Docker]().
-- To manage the packages, [Yarn]().
+- For database, I use **PostgreSQL** image for [Docker](https://docs.docker.com/install/).
+- **Yarn** for package management.
 
 # Getting started
 ## Docker and PostgreSQL
@@ -29,15 +29,19 @@ docker logs [container_name] # shows container log
 ```
 
 ## Config files
+Replace the following words with their respective data.
+
 ### src/config/auth.js
+- **YOUR_SECRET_HERE** - Secret used to encrypt/decrypt user password. Think of a random phrase, put it in [ [MD5 Online](https://www.md5online.org/), click on **Crypt** and put the generated code at this property;
+- **EXPIRE_DATE** - the token expiration time. Generally, and the value used here is ** 7d ** (seven days).
 
 ### src/config/database.js
-Replace the following words with their respective data:
+
 - **DIALECT_HERE** - depends of your database. In this project, the dialect is **postgres**;
 - **HOST_HERE** - IP of your host. E.g. **localhost**;
 - **DB_USERNAME_HERE** - your database username;
 - **DB_PASSWORD_HERE** - your database password;
-- **DB_NAME_HERE** - your database name. In this project, the name is **gobarber**;
+- **DB_NAME_HERE** - your database name. In this project, the name is **gobarber**.
 
 ## Yarn
 After install Yarn, run the following commands on your terminal:
