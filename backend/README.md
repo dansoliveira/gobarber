@@ -1,7 +1,7 @@
 # GoBarber API
 
 GoBarber is an application to manage a baber shop. This repository contains the API, responsible for all business rules.
-Developed on [second challenge](https://github.com/Rocketseat/bootcamp-gostack-desafio-02/blob/master/README.md#desafio-02-iniciando-aplica%C3%A7%C3%A3o) at **[Rocketseat](https://rocketseat.com.br/) Bootcamp GoStack 8.0** :rocket:.
+Developed on second module at **[Rocketseat](https://rocketseat.com.br/) Bootcamp GoStack 8.0** :rocket:.
 This application will be used for personal learning, where I'll apply concepts acquired during GoStack.
 
 # Requirements
