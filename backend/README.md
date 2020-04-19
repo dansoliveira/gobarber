@@ -32,8 +32,8 @@ docker logs [container_name] # shows container log
 Replace the following words with their respective data.
 
 ### src/config/auth.js
-- **YOUR_SECRET_HERE** - Secret used to encrypt/decrypt user password. Think of a random phrase, put it in [ [MD5 Online](https://www.md5online.org/), click on **Crypt** and put the generated code at this property;
-- **EXPIRE_DATE** - the token expiration time. Generally, and the value used here is ** 7d ** (seven days).
+- **YOUR_SECRET_HERE** - Secret used to encrypt/decrypt user password. Think of a random phrase, put it in [MD5 Online](https://www.md5online.org/), click on **Crypt** and put the generated code at this property;
+- **EXPIRE_DATE** - the token expiration time. Generally, and the value used here is **7d** (seven days).
 
 ### src/config/database.js
 
